@@ -1,0 +1,15 @@
+[submodule "Assets/vr_dynamic_objects"]
+	path = Assets/vr_dynamic_objects
+	url = https://github.com/WheelSims/vr_dynamic_objects.git
+[submodule "Scenes/vr_scenes"]
+	path = Scenes/vr_scenes
+	url = https://github.com/WheelSims/vr_scenes.git
+[submodule "Assets/vr_static_objects"]
+	path = Assets/vr_static_objects
+	url = https://github.com/WheelSims/vr_static_objects.git
+[submodule "Assets/vr_street_lights"]
+	path = Assets/vr_street_lights
+	url = https://github.com/WheelSims/vr_street_lights.git
+[submodule "Assets/vr_user"]
+	path = Assets/vr_user
+	url = https://github.com/WheelSims/vr_user.git
