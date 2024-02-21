@@ -60,10 +60,10 @@ public class UDPSignalReceiver : MonoBehaviour
       
 
            // Rotate around y - axis
-        transform.Rotate(0, (float)(angularVelocity * Time.fixedDeltaTime), 0);
+        transform.Rotate(0, (float)(angularVelocity * Time.fixedDeltaTime*4), 0);
 
         // Move forward / backward
-        transform.Translate(0, 0, (float)(linearVelocity * Time.fixedDeltaTime));
+        transform.Translate(0, 0, (float)(linearVelocity * Time.fixedDeltaTime*0.5));
     }
 
     private void OnDestroy()
