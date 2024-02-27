@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Collections;
 
 public class UDPSignalReceiver : MonoBehaviour
 {
@@ -60,10 +61,10 @@ public class UDPSignalReceiver : MonoBehaviour
       
 
            // Rotate around y - axis
-        transform.Rotate(0, (float)(angularVelocity * Time.fixedDeltaTime*4), 0);
+        transform.Rotate(0, (float)(angularVelocity * Time.fixedDeltaTime*(180/Mathf.PI)), 0);
 
         // Move forward / backward
-        transform.Translate(0, 0, (float)(linearVelocity * Time.fixedDeltaTime*0.5));
+        transform.Translate(0, 0, (float)(linearVelocity * Time.fixedDeltaTime));
     }
 
     private void OnDestroy()
